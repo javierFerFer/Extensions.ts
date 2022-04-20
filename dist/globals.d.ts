@@ -1,3 +1,4 @@
+import { Utilites } from './Utilities.model';
 declare global {
     export interface JSON {
         /**
@@ -9,5 +10,5 @@ declare global {
         parseToObject<T>(object: T): T;
     }
 }
-declare const constJSON: JSON;
-export { constJSON as JSON };
+declare let Utilites: Utilites;
+export { Utilites };

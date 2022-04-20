@@ -1,9 +1,9 @@
 {
   "name": "extensions.ts",
   "author": "javidev",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "TypeScript library with extensions as utilies by developer for developers",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
@@ -18,7 +18,6 @@
     "url": "git+https://github.com/javierFerFer/Extensions.ts.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/javierFerFer/Extensions.ts/issues"

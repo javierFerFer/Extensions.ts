@@ -1,5 +1,5 @@
 import { parseToObject } from "./JSON/JSON.extension";
-
+import { Utilites } from './Utilities.model';
 
 //#region GLOBAL
 
@@ -24,15 +24,19 @@ JSON.parseToObject = parseToObject;
 
 //#endregion
 
-//#region CONSTANTS
+//#region assing to export variable
+let Utilites: Utilites = {
+  JSON: {
+    parseToObject: parseToObject
+  }
+}
 
-const constJSON = globalThis.JSON;
-
+// Utilites = globalThis.JSON.parseToObject;
 //#endregion
 
 //#region EXPORTS
 
-export {constJSON as JSON};
+export { Utilites };
 
 //#endregion
 
